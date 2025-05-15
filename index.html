@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VerifSure - Email Verification</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+        }
+    </style>
+</head>
+
+
+<body class="bg-zinc-100 min-h-screen flex flex-col">
+
+<nav class="bg-zinc-100 border-b border-gray-200 sticky top-0 z-50">
+    <div class="container mx-auto px-4 py-3 flex justify-between items-center">
+        <a href="/" class="text-xl font-semibold text-gray-900">VerifSure</a>
+        <a href="/demo" class="bg-red-600 text-white hover:bg-red-700 rounded-md py-2.5 px-5 shadow-lg hover:shadow-red-500/50 transition-all duration-300 flex items-center">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-video-play mr-2 h-5 w-5"><path d="M19 9l-7 4 7 4V9z"/><rect x="2" y="4" width="15" height="16" rx="2" ry="2"/></svg>
+            View Demo
+        </a>
+    </div>
+</nav>
+    <header class="py-16 md:py-24 text-center">
+        <div class="container mx-auto px-4">
+            <h1 class="text-4xl md:text-6xl font-extrabold text-gray-900 mb-4 md:mb-6">
+                VerifSure
+            </h1>
+            <p class="text-lg md:text-xl text-gray-700 mb-8 md:mb-12 max-w-2xl mx-auto">
+                The Ultimate Email Verification Tool for Desktop. Clean your lists, boost deliverability, and protect your sender reputation.
+            </p>
+            <div class="flex flex-col sm:flex-row justify-center items-center gap-4">
+                <input
+                    type="email"
+                    placeholder="Enter your email"
+                    class="border w-full sm:w-auto max-w-xs bg-white border-red-500/30 placeholder:text-gray-400 rounded-md py-3 px-4 focus:outline-none focus:ring-0"
+                />
+                <button
+                    class="sm:w-auto w-full max-w-xs text-center justify-center bg-red-600 text-white hover:bg-red-700 rounded-md py-3 px-6 shadow-lg hover:shadow-red-500/50 transition-all duration-300 flex items-center"
+                >
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-mail-check mr-2 h-5 w-5"><path d="M22 2v6"/><path d="M22 10v6"/><path d="M22 18v4"/><path d="M2 9.46c0-1.31.55-2.48 1.45-3.28L12 2l8.55 4.18c.9.8 1.45 1.97 1.45 3.28v10.08c0 1.31-.55 2.48-1.45 3.28L12 22l-8.55-4.18c-.9-.8-1.45-1.97-1.45-3.28V9.46Z"/><path d="m9 12 2 2 4-4"/></svg>
+                    Get Early Access
+                </button>
+            </div>
+            <p class="mt-4 text-sm text-gray-600">Available on Windows, macOS, and Linux</p>
+        </div>
+    </header>
+
+    <main class="flex-grow">
+        <div class="container mx-auto px-4 py-12 md:py-20 space-y-16">
+            <section>
+                <h2 class="text-3xl font-semibold text-gray-900 text-center mb-8">Key Features</h2>
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                    <div class="bg-white/50 backdrop-blur-md rounded-lg p-6 border border-white/10 shadow-lg transition-all duration-300 hover:scale-[1.02] hover:shadow-red-500/20">
+                        <div class="mb-4">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-users h-6 w-6 text-red-400"><path d="M16 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="8" cy="7" r="4"/><path d="M20 16v-2a4 4 0 0 0-4-4h-.5a4 4 0 0 0-4 4v2"/></svg>
+
+                        </div>
+<h3 class="text-xl font-semibold text-gray-900 mb-2">Bulk Email Verification</h3>
+                        <p class="text-gray-700">Verify large email lists quickly and efficiently.</p>
+                    </div>
+                    <div class="bg-white/50 backdrop-blur-md rounded-lg p-6 border border-white/10 shadow-lg transition-all duration-300 hover:scale-[1.02] hover:shadow-red-500/20">
+                        <div class="mb-4">
+                           <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-check-circle h-6 w-6 text-green-400"><path d="M12 22c5.523 0 10-4.477 10-10S17.523 2 12 2 2 6.477 2 12s4.477 10 10 10Z"/><path d="m9 12 2 2 4-4"/></svg>
+                        </div>
+                        <h3 class="text-xl font-semibold text-gray-900 mb-2">Syntax Verification</h3>
+                        <p class="text-gray-700">Checks email addresses for correct syntax.</p>
+                    </div>
+                    <div class="bg-white/50 backdrop-blur-md rounded-lg p-6 border border-white/10 shadow-lg transition-all duration-300 hover:scale-[1.02] hover:shadow-red-500/20">
+                        <div class="mb-4">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-settings h-6 w-6 text-red-400"><path d="M12 20s-1 0-1-2"/><path d="M12 4s1 0 1 2"/><path d="M12 8a4 4 0 1 1 0 8 4 4 0 0 1 0-8"/><path d="M2 7h3"/><path d="M19 7h3"/><path d="M4.6 19.4a2.4 2.4 0 0 1 0-3.4"/><path d="M19.4 4.6a2.4 2.4 0 0 1 0 3.4"/></svg>
+                        </div>
+                        <h3 class="text-xl font-semibold text-gray-900 mb-2">Domain Verification</h3>
+                        <p class="text-gray-700">Verifies that the domain in the email address exists.</p>
+                    </div>
+                    <div class="bg-white/50 backdrop-blur-md rounded-lg p-6 border border-white/10 shadow-lg transition-all duration-300 hover:scale-[1.02] hover:shadow-red-500/20">
+                        <div class="mb-4">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-mail h-6 w-6 text-yellow-400"><path d="M4 4h16c1.326 0 2.41 1.084 2.41 2.41v9.18c0 1.326-1.084 2.41-2.41 2.41H4.004c-1.326 0-2.41-1.084-2.41-2.41V6.41c0-1.326 1.084-2.41 2.41-2.41Z"/><path d="m22 7-10 5-10-5"/></svg>
+                        </div>
+                        <h3 class="text-xl font-semibold text-gray-900 mb-2">MX Records Check</h3>
+                        <p class="text-gray-700">Checks if the email address can receive emails.</p>
+                    </div>
+                    <div class="bg-white/50 backdrop-blur-md rounded-lg p-6 border border-white/10 shadow-lg transition-all duration-300 hover:scale-[1.02] hover:shadow-red-500/20">
+                        <div class="mb-4">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-alert-triangle h-6 w-6 text-orange-400"><path d="m21.73 18-8-14a2 2 0 0 0-3.48 0l-8 14A2 2 0 0 0 4 21h16a2 2 0 0 0 1.73-3Z"/><path d="M12 9v4"/><path d="M12 17h.01"/></svg>
+                        </div>
+                        <h3 class="text-xl font-semibold text-gray-900 mb-2">Disposable Email Detection</h3>
+                        <p class="text-gray-700">Identifies and flags temporary email addresses.</p>
+                    </div>
+                    <div class="bg-white/50 backdrop-blur-md rounded-lg p-6 border border-white/10 shadow-lg transition-all duration-300 hover:scale-[1.02] hover:shadow-red-500/20">
+                        <div class="mb-4">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-trending-up h-6 w-6 text-pink-400"><path d="M3 17v-4c0-1.333.8-4 3-4 2.2 0 2.923 1.538 5 1.538 2.077 0 2.8-1.538 5-1.538 2.2 0 3 2.667 3 4v4"/><path d="m2 18 4-4 4 4"/></svg>
+                        </div>
+                        <h3 class="text-xl font-semibold text-gray-900 mb-2">Export Lists</h3>
+                        <p class="text-gray-700">Get detailed list such valid and invalid mails in formats such as csv, xlsx.</p>
+                    </div>
+                </div>
+            </section>
+
+            <section>
+                <h2 class="text-3xl font-semibold text-gray-900 text-center mb-8">Pros & Cons</h2>
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                    <div class="bg-white/50 backdrop-blur-md rounded-lg p-6 border border-white/10 shadow-lg transition-all duration-300 hover:scale-[1.02] hover:shadow-green-500/20">
+                        <h3 class="text-2xl font-semibold text-green-600 mb-4">Pros</h3>
+                        <ul class="list-disc list-inside space-y-2 text-gray-700">
+<li class="flex items-center gap-2">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-check-circle h-5 w-5 text-green-400"><path d="M12 22c5.523 0 10-4.477 10-10S17.523 2 12 2 2 6.477 2 12s4.477 10 10 10Z"/><path d="m9 12 2 2 4-4"/></svg>
+                                Unlimited Verfication
+                            </li>
+                           <li class="flex items-center gap-2">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-check-circle h-5 w-5 text-green-400"><path d="M12 22c5.523 0 10-4.477 10-10S17.523 2 12 2 2 6.477 2 12s4.477 10 10 10Z"/><path d="m9 12 2 2 4-4"/></svg>
+                                No Subscription (One-time fee)
+                            </li>
+                            <li class="flex items-center gap-2">
+                                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-check-circle h-5 w-5 text-green-400"><path d="M12 22c5.523 0 10-4.477 10-10S17.523 2 12 2 2 6.477 2 12s4.477 10 10 10Z"/><path d="m9 12 2 2 4-4"/></svg>
+                                Fast verification (Runs locally)
+                            </li>
+                  
+                            <li class="flex items-center gap-2">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-check-circle h-5 w-5 text-green-400"><path d="M12 22c5.523 0 10-4.477 10-10S17.523 2 12 2 2 6.477 2 12s4.477 10 10 10Z"/><path d="m9 12 2 2 4-4"/></svg>
+                                Affordable pricing
+                            </li>
+                             <li class="flex items-center gap-2">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-check-circle h-5 w-5 text-green-400"><path d="M12 22c5.523 0 10-4.477 10-10S17.523 2 12 2 2 6.477 2 12s4.477 10 10 10Z"/><path d="m9 12 2 2 4-4"/></svg>
+                                Desktop application
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="bg-white/50 backdrop-blur-md rounded-lg p-6 border border-white/10 shadow-lg transition-all duration-300 hover:scale-[1.02] hover:shadow-red-500/20">
+                        <h3 class="text-2xl font-semibold text-red-600 mb-4">Cons</h3>
+                        <ul class="list-disc list-inside space-y-2 text-gray-700">
+                            <li class="flex items-center gap-2">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-x-circle h-5 w-5 text-red-400"><circle cx="12" cy="12" r="10"/><path d="m15 9-6 6"/><path d="m9 9 6 6"/></svg>
+                                90% Accurate, Not 99%
+                            </li>
+                            
+                        </ul>
+                    </div>
+                </div>
+            </section>
+
+            <section>
+                <h2 class="text-3xl font-semibold text-gray-900 text-center mb-8">Why Not 99% Accurate</h2>
+                <div class="bg-white/50 backdrop-blur-md rounded-lg p-6 border border-white/10 shadow-lg">
+                    <p class="text-gray-700">
+                        The app does not perform SMTP checks because <span class="bg-red-100 text-red-500 px-2 rounded-md"> "Conducting thousands of such checks locally can lead to IP Blacklisting"</span>. That's why we removed it, However, it still a best option to improves list quality by removing emails with invalid syntax and those lacking MX records.
+                    </p>
+                </div>
+            </section>
+
+             <section class="text-center">
+                <h2 class="text-3xl font-semibold text-gray-900 mb-6">Ready to Get Started?</h2>
+                <p class="text-lg text-gray-700 mb-8 max-w-2xl mx-auto">
+                    Join thousands of businesses who trust VerifSure to keep their email lists clean and their sender reputation intact.
+                </p>
+                <form class="flex flex-col sm:flex-row justify-center items-center gap-4">
+                    <input
+                        type="email"
+                        placeholder="Enter your email"
+                        class="border w-full sm:w-auto max-w-xs bg-white border-red-500/30 placeholder:text-gray-400 rounded-md py-3 px-4 focus:outline-none focus:ring-0"
+                    />
+                    <button
+                        class=" w-full sm:w-auto max-w-xs bg-red-600 text-white hover:bg-red-700 rounded-md py-3 px-6 shadow-lg hover:shadow-red-500/50 transition-all duration-300 flex items-center justify-center"
+                    >
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-log-in mr-2 h-5 w-5"><path d="M15 3h6a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2h-6"/><path d="M10 17l5-5-5-5"/><path d="M13 12H3"/></svg>
+                        Sign Up Now
+                    </button>
+                </form>
+            </section>
+
+        </div>
+    </main>
+
+    <footer class="py-8 text-center text-gray-400 border-t border-white/10">
+        <div class="container mx-auto px-4">
+            &copy;  VerifSure. All rights reserved.
+        </div>
+    </footer>
+</body>
+</html>
